@@ -1,3 +1,47 @@
+/* Background */
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Dark blue gradient */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0f0f0; /* Light text */
+}
 
+/* Gradient Navbar */
+.bg-gradient {
+  background: linear-gradient(45deg, #00c6ff, #0072ff); /* Light blue → deep blue */
+}
+
+/* Glassmorphism card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #e0e0e0;
+}
+
+/* Buttons */
+.btn-gradient {
+  background: linear-gradient(45deg, #06beb6, #48b1bf); /* Teal → cyan */
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.2s, opacity 0.2s;
+}
+.btn-gradient:hover {
+  transform: scale(1.05);
+  opacity: 0.85;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0); /* Purple → violet */
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+footer .text-muted {
+  color: #ffffff !important;  /* white */
+}
 
 
