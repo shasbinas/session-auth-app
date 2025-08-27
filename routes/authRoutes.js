@@ -1,11 +1,11 @@
 
 import express from "express";
-import { showProducts, addProduct } from "../controllers/productController.js";
-import { isAuthenticated } from "../middleware/authMiddleware.js";
+import { showLogin, login, logout } from "../controllers/authController.js";
 
 const router = express.Router();
 
-router.get("/", isAuthenticated, showProducts);
-router.post("/add", isAuthenticated, addProduct);
+router.get("/login", showLogin);
+router.post("/login", login);
+router.get("/logout", logout);
 
-export default router;
+export default router;
