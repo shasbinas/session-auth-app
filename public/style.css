@@ -1,48 +1,58 @@
 /* Background */
 body {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Dark blue gradient */
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #f0f0f0; /* Light text */
+  color: #f8f9fa;
 }
 
-/* Gradient Navbar */
+/* Navbar */
 .bg-gradient {
-  background: linear-gradient(45deg, #00c6ff, #0072ff); /* Light blue → deep blue */
+  background: linear-gradient(45deg, orange, #ff4b2b); 
+  box-shadow: 0 4px 15px rgba(255, 0, 204, 0.3);
 }
 
-/* Glassmorphism card */
+
+/* Glass Card */
 .glass-card {
   background: rgba(255, 255, 255, 0.08);
   border-radius: 1rem;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
   color: #e0e0e0;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.5);
 }
 
 /* Buttons */
 .btn-gradient {
-  background: linear-gradient(45deg, #06beb6, #48b1bf); /* Teal → cyan */
+  background: linear-gradient(45deg, #00f260, #0575e6); /* Neon green → electric blue */
   border: none;
   color: white;
   font-weight: bold;
-  transition: transform 0.2s, opacity 0.2s;
+  border-radius: 0.6rem;
+  transition: all 0.3s ease;
 }
 .btn-gradient:hover {
-  transform: scale(1.05);
-  opacity: 0.85;
+  transform: scale(1.08);
+  box-shadow: 0 0 25px #00f260;
+  opacity: 0.95;
 }
 
 /* Hero */
 .hero {
-  background: linear-gradient(135deg, #8e2de2, #4a00e0); /* Purple → violet */
+  background: linear-gradient(135deg, #ff0099, #493240); /* Neon pink → violet */
   color: white;
   border-radius: 1rem;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.6);
 }
+
+/* Footer */
 footer .text-muted {
-  color: #ffffff !important;  /* white */
+  color: #ffb6f2 !important; /* neon soft pink */
 }
+/* welcome  color changed*/
+.text-primary {
+    --bs-text-opacity: 1;
+    color: red !important;}
 
 
 
