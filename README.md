@@ -13,18 +13,8 @@ A minimal session-based authentication app built with **Node.js**, **Express**, 
 * 🗂️ **EJS Views** with partials and layouts
 * 🎨 **Simple CSS** styling (no framework required)
 * 🧪 **Ready for Passport or JWT** later if you need it
-## 🧰 Tech Stack
-
-* **Runtime:** Node.js (>= 18)
-* **Server:** Express
-* **Views:** EJS
-* **Client:** Vanilla JavaScript + CSS
-* **State:** `express-session` (MemoryStore for dev)
-🚀 Quick Start (Setup & Run)
-
-<img src="./assets/img/screenshot.png"> 
-## Screenshot
-### 1) Clone the repo
+## Quick Start (Setup & Run)
+## 1) Clone the repo
 
 ```bash
 # Using HTTPS
@@ -40,6 +30,8 @@ cd session-auth-app
 
 ```bash
 npm install
+
+
 
 
 
