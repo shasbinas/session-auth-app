@@ -21,6 +21,9 @@ A minimal session-based authentication app built with **Node.js**, **Express**, 
 * **Client:** Vanilla JavaScript + CSS
 * **State:** `express-session` (MemoryStore for dev)
 🚀 Quick Start (Setup & Run)
+
+<img src="./assets/img/screenshot.png"> 
+## Screenshot
 ### 1) Clone the repo
 
 ```bash
