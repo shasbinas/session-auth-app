@@ -28,9 +28,9 @@ cd session-auth-app
 ### 2) Install dependencies
 
 ```bash
-
-⭐ If you like this project, consider giving it a star on GitHub!
 npm install
+```
+⭐ If you like this project, consider giving it a star on GitHub!
 
 
 
