@@ -5,7 +5,6 @@ A minimal session-based authentication app built with **Node.js**, **Express**, 
 ## 🔗 Live Demo / Repo
 * **GitHub Repository:** [session-auth-app](https://github.com/shasbinas/session-auth-app.git
 ## ✨ Features
-
 * 🔐 **Session Auth** using `express-session`
 * 🍪 **Cookies** for storing the session ID (HTTP-only)
 * 🔏 **Protected Routes** (middleware-based guard)
