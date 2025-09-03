@@ -1,6 +1,6 @@
 # 🧑‍💻 session-auth-app
 A minimal session-based authentication app built with **Node.js, Express, EJS, vanilla JavaScript, and CSS**.  
-It demonstrates login/logout, protected routes, session + cookie handling, and basic flash messaging.
+It demonstrates login/logout, protected routes, session + cookie handling
 ---
 ## 🔗 Live Demo / Repo
 GitHub Repository: [session-auth-app](https://github.com/shasbinas/session-auth-app.git)
